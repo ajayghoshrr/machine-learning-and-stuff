@@ -51,5 +51,6 @@ clf = LinearRegression()
 clf.fit(X_train, y_train)
 #print(X_test)
 #print(y_test)
+#getting accuracy with test data.
 accuracy = clf.score(X_test, y_test)
 print (accuracy)
