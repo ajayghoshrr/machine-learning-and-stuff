@@ -29,8 +29,8 @@ X = np.array(df.drop(['label'], 1))
 #y = np.array(df['label'])
 X = preprocessing.scale(X)
 #processed in the format of decimals for training the data.
+X_lately = X[-forecast_out:]
 X = X[:-forecast_out]
-X_lately = X[:-forecast_out:]
 df.dropna(inplace = True)
 y = np.array(df['label'])
 
