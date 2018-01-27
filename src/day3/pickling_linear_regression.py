@@ -32,8 +32,8 @@ X = np.array(df.drop(['label'], 1))
 #y = np.array(df['label'])
 X = preprocessing.scale(X)
 #processed in the format of decimals for training the data.
+X_lately = X[-forecast_out:]
 X = X[:-forecast_out]
-X_lately = X[:-forecast_out:]
 df.dropna(inplace = True)
 y = np.array(df['label'])
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2)
