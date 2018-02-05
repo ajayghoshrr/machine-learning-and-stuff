@@ -1,0 +1,8 @@
+-------------We are going to discuss about SUPPORT VECTOR MACHINE ...............................
+
+There is lot of math behind it.
+
+I'll upload the formulae and derivation later. Now I uploaded normal sklearn predefined SVM function and self made function. here.
+ 
+ 
+ For more optimized code, go through the CVXOPT ( Convex optimization ) documentation.
