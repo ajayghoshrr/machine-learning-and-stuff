@@ -71,7 +71,7 @@ Packages used :
 
                 PL - Python 3.5+
                 
-                Packages - TensorFlow, PyTorch, Sklearn, theano, numpy, Textblob, Quand1, pandas, matplotlib, Keras, NeuralNet etc.
+                Packages - TensorFlow, PyTorch, Sklearn, theano, numpy,NLTK, Textblob, Quand1, pandas, matplotlib, Keras, NeuralNet etc.
                 
                 And few MLaas from AWS or IBM Bluemix(Watson) and many more.
                 
