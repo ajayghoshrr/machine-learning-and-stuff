@@ -73,6 +73,8 @@ Packages used :
                 
                 Packages - TensorFlow, PyTorch, Sklearn, theano, numpy,NLTK, Textblob, Quand1, pandas, matplotlib, Keras, NeuralNet etc.
                 
+                Visualisation - Tableau , 
+                
                 And few MLaas from AWS or IBM Bluemix(Watson) and many more.
                 
            
