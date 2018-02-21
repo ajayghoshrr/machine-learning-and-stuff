@@ -130,3 +130,81 @@ mtcars <- edit(mtcars)
 
 #plot the two attributes 
 boxplot(mtcars$mpg~mtcars$cyl)
+
+#--------------------------DAY 2 ------------ML using R------
+
+data("airquality")
+#while seeing head I found some NA, have to replace missing values
+head(airquality)
+#tail of the data frame
+tail(airquality)
+
+is.na(airquality$Ozone)
+#position of missing values
+which(is.na(airquality$Ozone))
+
+#no of 'na' in ozone feature
+length(which(is.na(airquality$Ozone)))
+
+#have to removce the NA, so find the mean and replace with NA
+mean(airquality$Ozone, na.rm = TRUE)
+
+airquality$Ozone[which(is.na(airquality$Ozone))] <- mean(airquality$Ozone, na.rm = TRUE)
+View(airquality)
+#removed all the NA in ozone features
+colSums(is.na(airquality))
+#box plot - put in a maultiple plots in a matrix to ease of analyse
+par(mfrow = c(1,1))
+boxplot(mtcars$mpg~mtcars$cyl, main = "BoxPLOT with mpg and Main", xlab = "Cyl", ylab = "mpg", col = c("red", "blue"))
+#back ground color
+par(bg="skyblue")
+#to display the colors
+colors()
+# it will save the boxplot
+
+png(file = "boxplot1.png")
+#boxplot(mtcars$mpg ~ mtcars$cyl, main = "HEADING", xlab = "cyl", ylab)
+# setting to default visualization
+dev.off()
+data("iris")
+head(iris)
+#installed  the ggplot2
+install.packages("ggplot2")
+library(ggplot2)
+
+qplot(iris$Species, iris$Petal.Length, geom = "boxplot")
+
+hist(mtcars$mpg) #histogram
+hist(mtcars$mpg, labels = TRUE)
+hist(mtcars$mpg, breaks = 10, labels = TRUE)
+
+plot(mtcars$mpg) #scatterred plot is preffered bi variate analysis.
+plot(mtcars$mpg, mtcars$disp)
+
+#type means , line graph or cirlce graph.
+plot(mtcars$mpg, mtcars$disp, type = "l")
+
+#plot with different types.
+plot(mtcars$mpg, type = "h")
+
+
+plot(mtcars$mpg, type = "b")
+
+
+plot(mtcars$mpg, type = "o")
+#PCH will give different sympols in graph , instaed of 'o' it can be different sympols
+plot(mtcars$mpg, pch = 2, type = "o", col = "red")
+
+#to print the different sympols
+plot(mtcars$mpg, pch = c(as.factor(mtcars$mpg)))
+
+
+
+
+
+
+
+
+
+
+
