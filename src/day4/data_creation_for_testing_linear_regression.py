@@ -9,7 +9,7 @@ Linear regression is a regression which will separate the data by a line.
 Condition for linear regression is X and Y ( Data should be depended  - correlation must be high.
 Lines equation is Y = MX + C
 Y - Y axis value , X - X axis value, M - Slope, C is Y'(Y interception)
-
+b = mean(ys) - m*mean(xs)
 M = ((mean(x)*mean(y)) - mean(x*y) / (mean(x)* mean(x)) - mean(x*x)
 
 To find the best fit line
