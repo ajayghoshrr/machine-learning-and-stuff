@@ -54,7 +54,9 @@ Now you are logged in to the Floyd
   or You can easily add through command prompt.
   
   $ git clone https://github.com/ajayghoshrr/machine-learning-and-stuff.git   - Git command
+  
   $ cd <path-of-your-model>
+  
   $ floyd init quick-start
   
   Then from Dashboard , you can choose instances - CPU or GPU 
@@ -70,3 +72,16 @@ Now you are logged in to the Floyd
   It will take time to train your model depends on Dataset and code complexity.
 
   After training you can see the out on Jupyter. You can take your model as pickle as well.
+
+
+AWS - 
+
+Go to https://us-east-2.console.aws.amazon.com/console/
+
+Select the Launch Virtual Machine
+
+Choose an Amazon Machine Image (AMI) -  For Deep Learning - My opinion is - sg-c4dd91af -  Linux environment with all packages
+
+Choose the instances
+
+Launch the Virtual Machine
