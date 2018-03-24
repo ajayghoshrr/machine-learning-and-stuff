@@ -85,3 +85,10 @@ Choose an Amazon Machine Image (AMI) -  For Deep Learning - My opinion is - sg-c
 Choose the instances
 
 Launch the Virtual Machine
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+https://linuxacademy.com/howtoguides/posts/show/topic/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows
+
+Connect through putty to linux - and enjoy traning data
+
