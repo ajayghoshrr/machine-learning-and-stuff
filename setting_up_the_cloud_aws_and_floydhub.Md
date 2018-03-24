@@ -49,7 +49,7 @@ Now you are logged in to the Floyd
   You might be having datasets attached to the code. 
   You must be having lot of training/testing data - You have to add that into the Floyd
   In Dashboard you can add.
-  ![alt text](https://github.com/ajayghoshrr/machine-learning-and-stuff/master/floyd_setup.png)
+  ![alt text](https://github.com/ajayghoshrr/machine-learning-and-stuff/blob/master/floyd_setup.PNG)
   
   or You can easily add through command prompt.
   
