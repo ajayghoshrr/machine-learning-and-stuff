@@ -177,3 +177,5 @@ applicable law.
 Connect through putty to linux - and enjoy - Play with AWS features
 
  ![alt text](https://github.com/ajayghoshrr/machine-learning-and-stuff/blob/master/amazon_ml_features.PNG)
+
+For transfering models,datasets etc using filezilla or winscp - https://youtu.be/xhVRsW_Q1M0
