@@ -174,5 +174,6 @@ applicable law.
 
 
 
-Connect through putty to linux - and enjoy traning data
+Connect through putty to linux - and enjoy - Play with AWS features
 
+ ![alt text](https://github.com/ajayghoshrr/machine-learning-and-stuff/blob/master/amazon_ml_features.PNG)
