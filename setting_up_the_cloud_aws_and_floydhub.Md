@@ -90,5 +90,61 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
 
 https://linuxacademy.com/howtoguides/posts/show/topic/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows
 
+-----------------------------------------------------------------------------------------------------------------------------
+Authenticating with public key "imported-openssh-key"
+=============================================================================
+       __|  __|_  )
+       _|  (     /   Deep Learning AMI  (Ubuntu)
+      ___|\___|___|
+=============================================================================
+
+Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-1052-aws x86_64v)
+
+Please use one of the following commands to start the required environment with                                                                                         the framework of your choice:
+for MXNet(+Keras1) with Python3 (CUDA 9) _____________________ source activate m                                                                                        xnet_p36
+for MXNet(+Keras1) with Python2 (CUDA 9) _____________________ source activate m                                                                                        xnet_p27
+for TensorFlow(+Keras2) with Python3 (CUDA 8) ________________ source activate t                                                                                        ensorflow_p36
+for TensorFlow(+Keras2) with Python2 (CUDA 8) ________________ source activate t                                                                                        ensorflow_p27
+for Theano(+Keras2) with Python3 (CUDA 9) ____________________ source activate t                                                                                        heano_p36
+for Theano(+Keras2) with Python2 (CUDA 9) ____________________ source activate t                                                                                        heano_p27
+for PyTorch with Python3 (CUDA 9) ____________________________ source activate p                                                                                        ytorch_p36
+for PyTorch with Python2 (CUDA 9) ____________________________ source activate p                                                                                        ytorch_p27
+for CNTK(+Keras2) with Python3 (CUDA 8) ______________________ source activate c                                                                                        ntk_p36
+for CNTK(+Keras2) with Python2 (CUDA 8) ______________________ source activate c                                                                                        ntk_p27
+for Caffe2 with Python2 (CUDA 9) _____________________________ source activate c                                                                                        affe2_p27
+for Caffe with Python2 (CUDA 8) ______________________________ source activate c                                                                                        affe_p27
+for Caffe with Python3 (CUDA 8) ______________________________ source activate c                                                                                        affe_p35
+for Chainer with Python2 (CUDA 9) ____________________________ source activate c                                                                                        hainer_p27
+for Chainer with Python3 (CUDA 9) ____________________________ source activate c                                                                                        hainer_p36
+for base Python2 (CUDA 9) ____________________________________ source activate p                                                                                        ython2
+for base Python3 (CUDA 9) ____________________________________ source activate p                                                                                        ython3
+
+Official Conda User Guide: https://conda.io/docs/user-guide/index.html
+AWS Deep Learning AMI Homepage: https://aws.amazon.com/machine-learning/amis/
+Developer Guide and Release Notes: https://docs.aws.amazon.com/dlami/latest/devg                                                                                        uide/what-is-dlami.html
+Support: https://forums.aws.amazon.com/forum.jspa?forumID=263
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+79 packages can be updated.
+0 updates are security updates.
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+
+
+
 Connect through putty to linux - and enjoy traning data
 
